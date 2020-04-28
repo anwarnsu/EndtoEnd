@@ -51,10 +51,6 @@ portalHomePage p=new portalHomePage(driver);
 			lp.getPassword().sendKeys(password);
 	        lp.getLogin().click();
 	    }
-	 @And("^close browsers$")
-	    public void close_browsers() throws Throwable {
-	        driver.quit();
-	    }
 	
 
 
